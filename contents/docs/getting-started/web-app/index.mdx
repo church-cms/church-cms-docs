@@ -1,0 +1,244 @@
+---
+title: Web App & API
+description: Get started with the ChurchCMS Laravel web application and API
+---
+
+# ChurchCMS Web Application & API
+
+The ChurchCMS web application is built with **Laravel 8+**, **Vue 2**, and **Laravel Mix**. It provides both a comprehensive admin interface and a REST API for integrating with external applications and mobile apps.
+
+## Installation Methods
+
+ChurchCMS offers two flexible installation approaches to suit your needs:
+
+### 🌐 Browser-Based Visual Installer (Recommended for First-Time Users)
+
+A step-by-step web interface that guides you through the entire setup process.
+
+**Best for:**
+- Non-technical users
+- Local desktop setup
+- Visual feedback and progress tracking
+- Users new to ChurchCMS
+
+**What it covers:**
+1. Welcome & environment check
+2. System requirements verification
+3. Database configuration
+4. Church information setup
+5. Admin user creation
+6. Automated installation progress
+7. Completion confirmation
+
+**Getting started:**
+1. Clone the [Laravel repository](https://github.com/church-cms/church-cms-laravel)
+2. Configure `.env` with basic database details
+3. Access the installer at `/installer` in your browser
+4. Follow the visual wizard (6-7 steps)
+
+**Installation time:** ~5-10 minutes
+
+---
+
+### 💻 CLI Installer (Recommended for Developers)
+
+A command-line installation method perfect for automation, servers, and developers.
+
+**Best for:**
+- Developers and power users
+- Automation and CI/CD pipelines
+- SSH/VPS server setup
+- Scripted deployments
+- Headless server environments
+
+**Quick start:**
+```bash
+# 1. Clone repository
+git clone https://github.com/church-cms/church-cms-laravel
+cd church-cms-laravel
+
+# 2. Configure environment
+cp .env.example .env
+nano .env  # Update database credentials
+
+# 3. Run framework setup
+bash install.sh
+
+# 4. Create church and admin
+php artisan church:setup
+
+# 5. Start development server
+php artisan serve
+
+# 6. Access at http://localhost:8000/admin
+```
+
+**Installation time:** ~2-3 minutes
+
+---
+
+## System Requirements
+
+Both installation methods require:
+
+**Server:**
+- PHP 8.2 or higher
+- MySQL 5.7 or higher
+- 256MB minimum RAM (512MB recommended)
+- Composer (auto-installed during setup if available)
+- npm/Node.js (auto-installed during setup if available)
+
+**Required PHP Extensions:**
+- PDO & PDO MySQL
+- Mbstring, OpenSSL, Fileinfo
+- Tokenizer, XML, Ctype, JSON
+
+**Optional Services** (for full functionality):
+- S3-compatible storage (AWS S3, DigitalOcean Spaces, etc.)
+- Firebase Cloud Messaging (push notifications)
+- Twilio (SMS communications)
+- Pusher (real-time features)
+- Analytics integrations
+
+---
+
+## Features
+
+Once installed, you get:
+
+### Member Management
+- Member profiles and directories
+- Guest tracking
+- Preacher and sub-admin roles
+
+### Content & Media
+- Sermon management with audio/video uploads
+- Bulletin and newsletter publishing
+- Image gallery management
+- Media library organization
+
+### Events & Engagement
+- Event calendar and scheduling
+- Attendance tracking
+- Birthday notifications
+- RSVP and registration
+
+### Communication
+- Prayer request management
+- Community help workflows
+- Messaging tools
+- Newsletter campaigns
+
+### Giving & Finance
+- Donation processing
+- Fund management
+- Giving history tracking
+- Campaign management
+
+### Administration
+- Role-based access control
+- Activity audit logging
+- Comprehensive settings
+- Team management
+
+---
+
+## Installation Comparison
+
+| Feature | Visual Installer | CLI Method |
+|---------|-----------------|-----------|
+| **Interface** | Browser GUI | Terminal |
+| **Best For** | First-time users | Developers |
+| **Ease of Use** | Very beginner-friendly | Requires terminal knowledge |
+| **Automation** | Manual steps | Script-based |
+| **Speed** | 5-10 minutes | 2-3 minutes |
+| **Server Access** | Browser only | SSH/Terminal |
+| **CI/CD Ready** | ✗ No | ✓ Yes |
+| **Customizable** | Limited | Full control |
+
+---
+
+## Next Steps
+
+### After Installation
+
+1. **Log in** with the admin credentials you created
+2. **Configure church info** - Add logo, contact details, timezone
+3. **Add staff members** - Create accounts for team members
+4. **Set up events** - Create your first event or service
+5. **Invite members** - Start building your member directory
+
+### Recommended Security Steps
+
+Before going live:
+- [ ] Change your admin password
+- [ ] Remove `/public/installer` directory
+- [ ] Enable HTTPS with SSL certificate
+- [ ] Set up automated database backups
+- [ ] Configure firewall rules
+- [ ] Update all dependencies
+- [ ] Disable debug mode in production
+
+### Configuration
+
+After installation, configure via **Admin Dashboard → Settings**:
+- Church profile and contact information
+- Service times and locations
+- Social media links
+- Email sender configuration
+- Giving and donation settings
+- Event and sermon categories
+
+---
+
+## Documentation & Resources
+
+- **[Marketing Website](https://churchcms.app)** - Learn about ChurchCMS
+- **[Laravel Repository](https://github.com/church-cms/church-cms-laravel)** - Source code and issues
+- **[Community & Support](https://github.com/church-cms)** - Get help from the community
+- **[Developer Website](https://gegosoft.com)** - GegoSoft Technologies
+
+---
+
+## Common Questions
+
+**Q: Which installation method should I use?**
+- Use the **visual installer** for your first time or if you're not familiar with terminal commands
+- Use the **CLI method** if you're a developer or need to automate setup
+
+**Q: Can I switch between installations?**
+- Yes, both methods result in the same working system
+- You can even reinstall with the other method later
+
+**Q: What if installation fails?**
+- Check the error logs in `/storage/logs/laravel.log`
+- Verify all system requirements are met
+- Ensure database credentials are correct
+- Contact support with error messages and logs
+
+**Q: Do I need to know Laravel/Vue to use it?**
+- No, the web interface requires no coding knowledge
+- Use it as a complete admin dashboard
+- Only developers need Laravel/Vue knowledge for customization
+
+**Q: Is there a demo available?**
+- Visit [churchcms.app](https://churchcms.app) for demo information
+- Contact the community for test access
+
+---
+
+## Mobile Access
+
+- Use the **responsive web interface** on tablets and mobile browsers
+- Install the **[Android mobile app](../android)** for a native mobile experience
+- Progressive Web App (PWA) support for offline functionality
+
+---
+
+## License
+
+ChurchCMS is released under the **MIT License** - completely open source and free to use, modify, and distribute.
+
+---
+
+**Ready to get started?** Choose your installation method above and begin setting up your church's digital home. 🙏
