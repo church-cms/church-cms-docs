@@ -16,5 +16,45 @@ export const Documents: Paths[] = [
       },
     ],
   },
-  
+  {
+    heading: 'Modules',
+    title: 'User Management',
+    href: '/modules/user-management',
+    items: [
+      {
+        title: 'Members',
+        href: '/members',
+        items: [
+          {
+            title: 'Add Member',
+            href: '/add',
+          },
+          {
+            title: 'Member Detail',
+            href: '/detail',
+          },
+          {
+            title: 'Menu Options',
+            href: '/menu-options',
+          },
+          {
+            title: 'Edit Member',
+            href: '/edit',
+          },
+          {
+            title: 'Delete Member',
+            href: '/delete',
+          },
+          {
+            title: 'Export',
+            href: '/export',
+          },
+          {
+            title: 'Import',
+            href: '/import',
+          },
+        ],
+      },
+    ],
+  },
 ]

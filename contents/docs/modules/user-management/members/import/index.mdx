@@ -1,0 +1,62 @@
+---
+title: Import Members
+description: How to bulk-upload church members into ChurchCMS using the Import feature.
+---
+
+# Import Members
+
+The **Import** feature allows you to bulk-upload member records into ChurchCMS from an external file. This is particularly useful for initial onboarding or migrating from another system.
+
+## How to Import
+
+1. Go to **Users → Members**.
+2. Click the **Import** button in the toolbar.
+3. Select your file from the file picker.
+4. Follow the on-screen prompts to map columns and confirm the import.
+5. Click **Submit** to begin the import process.
+
+---
+
+## Preparing Your Import File
+
+Before importing, make sure your file is correctly formatted. The following columns are typically expected:
+
+| Column | Required | Notes |
+|---|:---:|---|
+| Full Name | Yes | First and last name |
+| Email ID | Yes | Must be unique per member |
+| Phone Number | Yes | |
+| Date of Birth | No | Format: DD-MM-YYYY |
+| Gender | No | Male / Female / Other |
+| Blood Group | No | e.g., A, O+, B- |
+| Aadhar Number | No | |
+| Occupation | No | |
+| Address | No | |
+| Membership Type | No | Defaults to "Member" if blank |
+| Membership Start Date | No | Format: DD-MM-YYYY |
+
+<Note type="info">
+  Download the **sample import template** from the Import dialog to ensure your file uses the correct column names and format.
+</Note>
+
+---
+
+## Import Rules
+
+- **Duplicate email addresses** will be skipped or flagged as errors.
+- Rows with missing required fields will be rejected.
+- A summary report is shown after import, listing successful records and any errors.
+
+---
+
+## After Importing
+
+Once the import completes:
+
+- New members appear immediately in the [Members list](/docs/modules/user-management/members).
+- Review the summary report to address any failed rows.
+- Open individual member profiles to complete any missing information.
+
+<Note type="warning">
+  Imported data is **not reversible** in bulk. Review your file carefully before importing to avoid creating duplicate or incorrect records.
+</Note>

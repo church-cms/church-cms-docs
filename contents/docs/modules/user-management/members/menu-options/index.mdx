@@ -1,0 +1,114 @@
+---
+title: Menu Options
+description: Reference for all actions available in the three-dot (⋮) menu on a member's profile in ChurchCMS.
+---
+
+# Menu Options
+
+The **⋮ (three-dot) menu** at the top-right of a [Member Detail](/docs/modules/user-management/members/detail) page provides a set of administrative actions for that specific member.
+
+## Accessing the Menu
+
+1. Open a member's profile (**Users → Members → click name**).
+2. Click the **⋮** icon at the top-right of the profile panel.
+
+---
+
+## Available Actions
+
+### Deactivate Member
+
+Marks the member as **inactive** without deleting their record.
+
+- Inactive members do not appear in active member lists.
+- They do not receive system communications or newsletters.
+- Their record is preserved and can be reactivated at any time.
+
+<Note type="info">
+  Use **Deactivate** when a member is temporarily away or on a leave of absence.
+</Note>
+
+---
+
+### Reactivate Member
+
+Restores a previously deactivated member to **active** status. This option replaces "Deactivate" when viewing an inactive member's profile.
+
+---
+
+### Reset Password
+
+Sends a **password reset link** to the member's registered email address, allowing them to set a new login password.
+
+---
+
+### Verify Email
+
+Dispatches an **email verification link** to the member's registered email. Use this if the member's email address was added manually and has not been verified.
+
+---
+
+### Subscribe to Newsletter
+
+Toggles the member's **newsletter subscription** status. Selecting this option will subscribe or unsubscribe them depending on their current state.
+
+---
+
+### Messaging
+
+Send a direct message to the member via one of three supported channels:
+
+| Channel | Description |
+|---|---|
+| Internal Message | In-app notification visible in the member's account |
+| Email | Sent to the member's registered email address |
+| SMS | Sent to the member's registered phone number |
+
+**Steps:**
+1. Select **Messaging** from the ⋮ menu.
+2. Choose the desired channel (Internal / Email / SMS).
+3. Enter the **Subject**, **Message Body**, and any **Attachments**.
+4. Click **Send**.
+
+---
+
+### Add Family Member
+
+Links a new or existing person as a family member of this member.
+
+**Required fields:**
+
+| Field | Description |
+|---|---|
+| Relationship | e.g., Spouse, Child, Parent, Sibling |
+| Name | Family member's full name |
+| Gender | Male / Female / Other |
+| Date of Birth | For records and birthday tracking |
+| Mobile Number | Primary contact number |
+
+**Optional fields:** Blood Group, Aadhar Number, Email
+
+Click **Submit** to save. The entry will appear under the **Family** tab on the member's [Detail page](/docs/modules/user-management/members/detail#family).
+
+---
+
+### Generate Membership Card
+
+Instantly generates a **printable membership card** for the member, pre-filled with their name, photo, membership ID, and key profile details.
+
+- The card can be downloaded and printed directly from the browser.
+- To generate cards in bulk for all members, use the **Generate Membership Card** button on the [Members list](/docs/modules/user-management/members) toolbar.
+
+---
+
+### Exit Member
+
+Marks the member as **exited** — indicating they have left the congregation (e.g., transferred, relocated, or deceased).
+
+- Requires confirmation before applying.
+- Exited members are **retained** in the system for historical record-keeping.
+- They are excluded from active lists, communications, and attendance.
+
+<Note type="warning">
+  This action requires confirmation. Use **Deactivate** instead if the member's status is temporary.
+</Note>

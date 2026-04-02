@@ -1,0 +1,70 @@
+---
+title: User Management
+description: An overview of the four user types in ChurchCMS — Members, Preachers, Sub-Admins, and Staff — and their roles within the system.
+---
+
+# User Management
+
+ChurchCMS organizes users into four distinct types. Each type carries a specific set of permissions, responsibilities, and access levels within the application.
+
+## User Types
+
+<CardGrid>
+  <Card
+    title="Members"
+    description="Regular church members. Managed by admins and staff. Can log in to view their profile, messages, and membership card."
+    href="/docs/modules/user-management/members"
+    icon="users"
+    variant="small"
+  />
+  <Card
+    title="Preachers"
+    description="Ministers and preachers associated with the church. Managed separately with preacher-specific profile details."
+    href="/docs/modules/user-management/members"
+    icon="user"
+    variant="small"
+  />
+  <Card
+    title="Sub-Admins"
+    description="Trusted users with elevated access to manage members, content, and reports. Access is scoped by the primary Admin."
+    href="/docs/modules/user-management/members"
+    icon="userCheck"
+    variant="small"
+  />
+  <Card
+    title="Staff"
+    description="Church employees and volunteers with staff-level access to day-to-day operations such as attendance and scheduling."
+    href="/docs/modules/user-management/members"
+    icon="userCog"
+    variant="small"
+  />
+</CardGrid>
+
+---
+
+## Role Comparison
+
+| Capability | Member | Preacher | Sub-Admin | Staff |
+|---|:---:|:---:|:---:|:---:|
+| View own profile | ✓ | ✓ | ✓ | ✓ |
+| Manage members | | | ✓ | ✓ |
+| Manage preachers | | | ✓ | |
+| Manage groups | | | ✓ | ✓ |
+| Send messages | | | ✓ | ✓ |
+| Access reports | | | ✓ | |
+| Full admin access | | | | |
+
+<Note type="info">
+  The **primary Admin** account has full access across all modules and is the only role that can create or modify Sub-Admin accounts.
+</Note>
+
+---
+
+## Navigation
+
+All user type lists are accessible from the main sidebar under **Users**:
+
+- **Users → Members**
+- **Users → Preachers**
+- **Users → Sub Admins**
+- **Users → Staff**
