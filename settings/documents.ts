@@ -77,6 +77,28 @@ export const Documents: Paths[] = [
           },
         ],
       },
+      {
+        title: 'Sub Admins',
+        href: '/sub-admin',
+        items: [
+          {
+            title: 'Add Sub Admin',
+            href: '/add',
+          },
+          {
+            title: 'Sub Admin Detail',
+            href: '/detail',
+          },
+          {
+            title: 'Menu Options',
+            href: '/menu-options',
+          },
+          {
+            title: 'Edit Sub Admin',
+            href: '/edit',
+          },
+        ],
+      },
     ],
   },
   {
