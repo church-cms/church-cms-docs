@@ -55,6 +55,28 @@ export const Documents: Paths[] = [
           },
         ],
       },
+      {
+        title: 'Staff',
+        href: '/staff',
+        items: [
+          {
+            title: 'Add Staff',
+            href: '/add',
+          },
+          {
+            title: 'Staff Detail',
+            href: '/detail',
+          },
+          {
+            title: 'Menu Options',
+            href: '/menu-options',
+          },
+          {
+            title: 'Edit Staff',
+            href: '/edit',
+          },
+        ],
+      },
     ],
   },
   {
