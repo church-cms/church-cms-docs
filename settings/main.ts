@@ -1,7 +1,7 @@
 export const url = 'https://churchcms.app/'
 export const siteicon = '/church_cms_logo_small.png'
 
-export const gtm = 'GTM-XXXXXXX'
+export const gtm = 'G-EY1HSK1F0K'
 export const gtmconnected = true
 
 export const sitename = 'Documents'
