@@ -57,4 +57,82 @@ export const Documents: Paths[] = [
       },
     ],
   },
+  {
+    title: 'Events & Calendar',
+    href: '/modules/events-calendar-management',
+    items: [
+      {
+        title: 'Calendar',
+        href: '/calendar',
+      },
+       {
+      title: 'How to Create an Event',
+      href: '/create-event',
+    },
+    {
+      title: 'Creating a Private Event',
+      href: '/private-event',
+    },
+    {
+      title: 'Creating a Public Event',
+      href: '/public-event',
+    },
+    ],
+  },
+  {
+  title: 'Gallery Management',
+  href: '/modules/gallery-management',
+  items: [
+    {
+      title: 'How to Create a New Gallery',
+      href: '/create-gallery',
+    },
+    {
+      title: 'How to Edit a Gallery',
+      href: '/edit-gallery',
+    },
+    {
+      title: 'How to Delete a Gallery',
+      href: '/delete-gallery',
+    },
+  ],
+},
+{
+  title: 'Groups Management',
+  href: '/modules/groups-management',
+  items: [
+    {
+      title: 'How to Access Groups Module',
+      href: '/access-groups',
+    },
+    {
+      title: 'How to Create a New Group',
+      href: '/create-group',
+    },
+    {
+      title: 'Viewing Group Details',
+      href: '/view-group-details',
+    },
+    {
+      title: 'Add Members to a Group',
+      href: '/add-members',
+    },
+    {
+      title: 'Send Message to Group Members',
+      href: '/send-message',
+    },
+    {
+      title: 'View Message List',
+      href: '/view-message-list',
+    },
+    {
+      title: 'Edit Group',
+      href: '/edit-group',
+    },
+    {
+      title: 'Delete Group',
+      href: '/delete-group',
+    },
+  ],
+},
 ]

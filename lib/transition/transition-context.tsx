@@ -7,7 +7,6 @@ import {
   useEffect,
   useState,
 } from 'react'
-import { flushSync } from 'react-dom'
 
 import { useBrowserNativeTransitions } from './browser-native'
 
@@ -28,15 +27,13 @@ export function ViewTransitions({
   const [finishViewTransition, setFinishViewTransition] = useState<(() => void) | null>(null)
 
   useEffect(() => {
-    if (finishViewTransition) {
-      setTimeout(() => {
-        flushSync(() => {
-          finishViewTransition()
-          setFinishViewTransition(null)
-        })
-      }, 0)
-    }
-  }, [finishViewTransition])
+  if (finishViewTransition) {
+    queueMicrotask(() => {
+      finishViewTransition()
+      setFinishViewTransition(null)
+    })
+  }
+}, [finishViewTransition])
 
   useBrowserNativeTransitions()
 
