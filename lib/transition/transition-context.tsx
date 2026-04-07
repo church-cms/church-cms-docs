@@ -29,11 +29,12 @@ export function ViewTransitions({
 
   useEffect(() => {
     if (finishViewTransition) {
-      // Use flushSync to ensure the callback is executed immediately
-      flushSync(() => {
-        finishViewTransition()
-        setFinishViewTransition(null)
-      })
+      setTimeout(() => {
+        flushSync(() => {
+          finishViewTransition()
+          setFinishViewTransition(null)
+        })
+      }, 0)
     }
   }, [finishViewTransition])
 
