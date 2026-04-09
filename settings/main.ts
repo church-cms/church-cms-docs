@@ -1,14 +1,15 @@
 export const url = 'https://churchcms.app/'
-export const siteicon = '/church_cms_logo_small.png'
+export const siteicon = '/churchcmslogo.png'
+export const siteiconDark = '/churchcmslogodark.png'
 
 export const gtm = 'G-SQHEECY8Y0'
 export const gtmconnected = true
 
-export const sitename = 'Documents'
+export const sitename = 'ChurchCMS Documentation'
 export const description =
   'This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.'
 export const keywords = ['Next.js', 'documentation', 'ChurchCMS', 'open source', 'SEO']
-export const urlimage = '/church_cms_logo_small.png'
+export const urlimage = '/churchcmslogo.png'
 export const imagealt = 'ChurchCMS Documentation'
 export const twitterhandle = 'https://x.com/ChurchCMS_App'
 
