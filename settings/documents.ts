@@ -179,4 +179,34 @@ export const Documents: Paths[] = [
     },
   ],
 },
+{
+  title: 'Video Chat Room',
+  href: '/modules/video-chat-room',
+  items: [
+    {
+      title: 'How to Create a Video Chat Room',
+      href: '/create-room',
+    },
+    {
+      title: 'How to Edit a Video Chat Room',
+      href: '/edit-room',
+    },
+    {
+      title: 'How to Delete a Video Chat Room',
+      href: '/delete-room',
+    },
+    {
+      title: 'How to Go to a Room',
+      href: '/go-to-room',
+    },
+    {
+      title: 'How to Manage Invitees',
+      href: '/manage-invitees',
+    },
+    {
+      title: 'Search & Reset',
+      href: '/search-reset',
+    },
+  ],
+},
 ]
