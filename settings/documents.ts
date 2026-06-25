@@ -210,6 +210,20 @@ export const Documents: Paths[] = [
   ],
 },
 {
+  title: 'Media Files',
+  href: '/modules/media-files-management',
+  items: [
+    {
+      title: 'Media Library',
+      href: '/media-library',
+    },
+    {
+      title: 'How to Add an Image',
+      href: '/add-image',
+    },
+  ],
+},
+{
   title: 'Bulletin Management',
   href: '/modules/bulletin-management',
   items: [
@@ -220,6 +234,10 @@ export const Documents: Paths[] = [
     {
       title: 'How to Add a Bulletin',
       href: '/add-bulletin',
+    },
+    {
+      title: 'How to Edit a Bulletin',
+      href: '/edit-bulletin',
     },
 
   ],
