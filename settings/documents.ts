@@ -209,4 +209,55 @@ export const Documents: Paths[] = [
     },
   ],
 },
+{
+  title: 'Bulletin Management',
+  href: '/modules/bulletin-management',
+  items: [
+    {
+      title: 'Bulletin List',
+      href: '/list-bulletin',
+    },
+    {
+      title: 'How to Add a Bulletin',
+      href: '/add-bulletin',
+    },
+
+  ],
+},
+{
+  title: 'Sermon Management',
+  href: '/modules/sermon-management',
+  items: [
+    {
+      title: 'How to Add a Sermon',
+      href: '/add-sermon',
+    },
+    {
+      title: 'Sermon List',
+      href: '/list-sermon',
+    },
+    {
+      title: 'How to Edit a Sermon',
+      href: '/edit-sermon',
+    },
+    {
+      title: 'How to Delete a Sermon',
+      href: '/delete-sermon',
+    },
+    {
+      title: 'Sermon Details & Chapters',
+      href: '/sermon-details',
+      items: [
+        {
+          title: 'How to Add a Chapter',
+          href: '/add-chapter',
+        },
+        {
+          title: 'How to Edit a Chapter',
+          href: '/edit-chapter',
+        },
+      ],
+    },
+  ],
+},
 ]
