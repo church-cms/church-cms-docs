@@ -221,6 +221,14 @@ export const Documents: Paths[] = [
       title: 'How to Add an Image',
       href: '/add-image',
     },
+    {
+      title: 'How to Add an Audio File',
+      href: '/add-audio',
+    },
+    {
+      title: 'How to Add a Video File',
+      href: '/add-video',
+    },
   ],
 },
 {
