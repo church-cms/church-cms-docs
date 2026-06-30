@@ -1,120 +1,97 @@
 ---
 title: Sub Admin Detail
-description: View and manage a sub-admin's full profile including all tabs in ChurchCMS.
+description: Guide to viewing and managing a sub-admin's full profile, roles, and permissions in ChurchCMS.
 ---
 
-# How to Access Member Profile Actions
+# Sub Admin Profile
 
-## Steps
+## Overview
 
-1. Login to the system using **Admin** or **Staff** credentials.
-2. Navigate to **Users → Sub Admins**.
-3. Click the **name** and the profile will be opened.
-
-![Sub Admin List Click](/modules/sub-admin/sub-admin-list-click.png)
+The **Sub Admin Profile** page provides a complete view of a sub-admin's personal information, contact details, membership data, and role-based permissions. Administrators can manage account access and assign granular permissions from this page.
 
 ---
 
-## Sub Admin Profile Sections
+## Accessing the Sub Admin Profile
 
-The following tabs and details can be viewed in the profile:
+From the **Sub Admins** list, click on a sub-admin's name to open their profile page.
 
-- My Profile
-- Timeline
-- Family Tree
-- Family
-- Messages
-- Notes
-- Attendance
-
-![Sub Admin Profile Overview](/modules/sub-admin/sub-admin-profile-overview.png)
+![Sub Admin Profile](/modules/sub-admin/sub-admin-detail.png)
+![Sub Admin Profile](/modules/sub-admin/sub-admin-details.png)
 
 ---
 
-## 1. Profile
+## Profile Header
 
-Displays the complete profile information of the sub admin.
+The top section of the profile displays the sub-admin's name and ID, along with three action buttons:
 
-![Sub Admin My Profile Tab](/modules/sub-admin/sub-admin-my-profile-tab.png)
-
----
-
-## 2. Timeline
-
-Displays the activity history of the member profile. All updates and actions performed in the profile can be viewed here.
-
-![Sub Admin Timeline](/modules/sub-admin/sub-admin-timeline-1.png)
-
-![Sub Admin Timeline](/modules/sub-admin/sub-admin-timeline-2.png)
+| Button | Description |
+|--------|-------------|
+| **Deactivate** | Deactivates the sub-admin account, preventing login. |
+| **Reset Password** | Sends a password reset link to the sub-admin's email. |
+| **Verify Email** | Sends an email verification request to the sub-admin. |
 
 ---
 
-## 3. Family Tree
+## Left Panel — Personal Details
 
-Displays the family details linked to the member. Family information such as:
+The left panel shows the sub-admin's profile picture with an **Edit** button to update it, along with:
 
-- Name of the family member
-- Relationship
-- Date of Birth
-- Email ID
-- Other related details can be viewed here.
+**Basic Information**
+- **Date of Birth**
+- **Occupation**
+- **Gender**
+- **Aadhaar Number**
 
-![Sub Admin Family Tree](/modules/sub-admin/sub-admin-family-tree-1.png)
-
-![Sub Admin Family Tree](/modules/sub-admin/sub-admin-family-tree-2.png)
-
----
-
-## 4. Family
-
-Family tree details can be added while creating the member profile in the Users module.
-
-![Sub Admin Family](/modules/sub-admin/sub-admin-family-1.png)
-
-![Sub Admin Family](/modules/sub-admin/sub-admin-family-2.png)
+**Contact Information**
+- Address
+- Phone Number
+- Email Address
 
 ---
 
-## 5. Messages
+## Profile Tabs
 
-Displays messages sent by the member. The following details can be viewed:
+The right panel contains multiple tabs for detailed information:
 
-- Status
-- Subject
-- Message
-- Attachments
-- Sent On
-- Action
-
-![Sub Admin Messages](/modules/sub-admin/sub-admin-messages-1.png)
-
-![Sub Admin Messages](/modules/sub-admin/sub-admin-messages-2.png)
+| Tab | Description |
+|-----|-------------|
+| **My Profile** | Shows Age, Membership Type, and Membership Start Date. |
+| **Timeline** | Displays the activity timeline of the sub-admin. |
+| **Family Tree** | Shows family relationships linked to the profile. |
+| **Family** | Lists family members associated with the account. |
+| **Messages** | Shows messages sent or received by the sub-admin. |
+| **Notes** | Displays admin notes added to the profile. |
 
 ---
 
-## 6. Notes
+## Roles & Permissions
 
-Admin can add notes related to the member.
+The **Roles & Permissions** section allows administrators to control what actions the sub-admin can perform across modules.
 
-1. Enter the note in the provided field.
-2. Click **Submit** to save the note.
+### Apply Role Preset
 
-![Sub Admin Notes](/modules/sub-admin/sub-admin-notes-1.png)
+Select a predefined role from the **Apply Role Preset** dropdown and click **Apply** to assign all permissions for that role at once. Click **Clear All** to remove all permissions.
 
-![Sub Admin Notes](/modules/sub-admin/sub-admin-notes-2.png)
+![Roles and Permissions](/modules/sub-admin/sub-admin-roles.png)
 
----
 
-## 7. Attendance
 
-The attendance details of the member can be viewed in this section.
+### Module-Level Permissions
 
-![Sub Admin Attendance](/modules/sub-admin/sub-admin-attendance-1.png)
+Each module lists individual permissions that can be toggled on or off:
 
-![Sub Admin Attendance](/modules/sub-admin/sub-admin-attendance-2.png)
+- Use **Toggle All** on the right of each module to enable or disable all permissions for that module at once.
+- Individual checkboxes allow fine-grained control (e.g. **Create**, **Read**, **Update**, **View**).
 
----
+**Example modules:**
+- **Attendance** — Create Attendance, Read Attendance, Update Attendance
+- **Bulletins** — Create Bulletins, Read Bulletins, View Bulletins
+- **Events** — Create Events, Read Events, View Events
 
-## Available Actions
+![Roles and Permissions](/modules/sub-admin/sub-admin-roles1.png)
+![Roles and Permissions](/modules/sub-admin/sub-admin-rolesupdate.png)
+![Roles and Permissions](/modules/sub-admin/sub-admin-user-menu.png)
 
-Additional actions are available from the **⋮ menu** at the top-right of the profile. See [Menu Options](/docs/modules/user-management/sub-admin/menu-options) for the full list.
+<Note type="info">
+  Changes to Roles & Permissions take effect immediately after saving. Always review permissions carefully before applying a role preset.
+</Note>

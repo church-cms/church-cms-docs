@@ -1,31 +1,51 @@
 ---
 title: Creating a Public Event
-description: Guide to creating and managing public events.
+description: Guide to creating and managing public events in ChurchCMS.
 ---
 
+## Overview
+
+A **Public Event** is visible to all members and can be announced through the member application. It appears on the calendar and members receive notifications about it.
+
+## Step-by-Step Procedure
+
 <Step>
-  <StepItem title="Select Public Event">
-    Click **Create Public Event** from the dropdown menu.
+  <StepItem title="Login to the system">
+    Login to the system using **Admin credentials**.
   </StepItem>
-  <StepItem title="Fill in the details">
-    Fill in all the required event details (same as private event).
+  <StepItem title="Open Events / Calendar">
+    From the main menu, click **Events / Calendar**.
   </StepItem>
-  <StepItem title="Submit the form">
-    Click **Submit**.
+  <StepItem title="Create a Public Event">
+    Click the **+ Add Event** button and select **Public Event** from the options.
+  </StepItem>
+  <StepItem title="Enter the required details">
+    A new event form will open. Fill in the following fields:
+
+    - **Title** *(required)* — Enter the event title.
+    - **Description** — Enter a brief description of the event.
+    - **Repeats** — Set whether the event repeats (None, Daily, Weekly, Monthly).
+    - **Location** — Enter the event venue or location.
+    - **Event Category** — Select the category for the event.
+    - **Organized By** — Enter the name of the organizer.
+    - **Start Date & Time** *(required)* — Set the event start date and time.
+    - **End Date & Time** *(required)* — Set the event end date and time.
+
+    ![Create Public Event Form](/modules/events-calendar/create-public-event.png)
+  </StepItem>
+  <StepItem title="Click Submit">
+    Click **Submit** to save and create the public event.
   </StepItem>
 </Step>
-
-![Creating a Public Event1](/modules/events-calendar/create-public-event1.png)
-![Creating a Public Event2](/modules/events-calendar/create-public-event2.png)
 
 ## Outcome
 
 - The public event will be created successfully.
-- The event will be visible in the calendar.
-- Notifications will be sent to members through the member application.
+- It will appear in the event list and on the calendar, visible to all members.
+- Members will receive notifications via the member application.
 
-<Note type="note" title="Notes">
-  - Ensure all event details are entered accurately before submission.
-  - Public events will be visible to members, while private events are restricted to internal users.
-  - The members can view their calendar of events in the monthly calendar.
+![Public Event List](/modules/events-calendar/event-public-list.png)
+
+<Note type="info">
+  Public events are visible to all members. Ensure all event details are accurate before submitting.
 </Note>

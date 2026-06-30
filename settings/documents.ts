@@ -56,28 +56,6 @@ export const Documents: Paths[] = [
         ],
       },
       {
-        title: 'Staff',
-        href: '/staff',
-        items: [
-          {
-            title: 'Add Staff',
-            href: '/add',
-          },
-          {
-            title: 'Staff Detail',
-            href: '/detail',
-          },
-          {
-            title: 'Menu Options',
-            href: '/menu-options',
-          },
-          {
-            title: 'Edit Staff',
-            href: '/edit',
-          },
-        ],
-      },
-      {
         title: 'Sub Admins',
         href: '/sub-admin',
         items: [
@@ -99,6 +77,20 @@ export const Documents: Paths[] = [
           },
         ],
       },
+      {
+        title: 'Guests',
+        href: '/guest',
+        items: [
+          {
+            title: 'Guest Detail',
+            href: '/detail',
+          },
+          {
+            title: 'Menu Options',
+            href: '/menu-options',
+          },
+        ],
+      },
     ],
   },
   {
@@ -108,6 +100,22 @@ export const Documents: Paths[] = [
       {
         title: 'Calendar',
         href: '/calendar',
+      },
+      {
+        title: 'Event List',
+        href: '/event-list',
+      },
+      {
+        title: 'Event Details',
+        href: '/event-details',
+      },
+      {
+        title: 'How to Edit an Event',
+        href: '/edit-event',
+      },
+      {
+        title: 'Search Events by Category',
+        href: '/search-event',
       },
        {
       title: 'How to Create an Event',
@@ -168,6 +176,10 @@ export const Documents: Paths[] = [
     {
       title: 'View Message List',
       href: '/view-message-list',
+    },
+    {
+      title: 'Group Posts',
+      href: '/group-posts',
     },
     {
       title: 'Edit Group',

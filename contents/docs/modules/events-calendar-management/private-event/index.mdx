@@ -1,42 +1,52 @@
 ---
 title: Creating a Private Event
-description: Guide to creating and managing private events.
+description: Guide to creating and managing private events in ChurchCMS.
 ---
 
+## Overview
+
+A **Private Event** is visible only to internal members and administrators. It will appear on the calendar but is not publicly accessible.
+
+## Step-by-Step Procedure
+
 <Step>
-  <StepItem title="Select Private Event">
-    Click **Create Private Event** from the dropdown menu.
+  <StepItem title="Login to the system">
+    Login to the system using **Admin credentials**.
   </StepItem>
-  <StepItem title="Open Event Form">
-    A new event form will open.
+  <StepItem title="Open Events / Calendar">
+    From the main menu, click **Events / Calendar**.
+  </StepItem>
+  <StepItem title="Create a Private Event">
+    Click the **+ Add Event** button and select **Private Event** from the options.
   </StepItem>
   <StepItem title="Enter the required details">
-    Enter the required details:
-    - **Title**
-    - **Description**
-    - **Repeats**
-    - **Location**
-    - **Event Category**
-    - **Organized By**
-    - **Start Date & Time**
-    - **End Date & Time**
+    A new event form will open. Fill in the following fields:
+
+    - **Title** *(required)* — Enter the event title.
+    - **Description** — Enter a brief description of the event.
+    - **Repeats** — Set whether the event repeats (None, Daily, Weekly, Monthly).
+    - **Location** — Enter the event venue or location.
+    - **Event Category** — Select the category for the event.
+    - **Organized By** — Enter the name of the organizer.
+    - **Start Date & Time** *(required)* — Set the event start date and time.
+    - **End Date & Time** *(required)* — Set the event end date and time.
+
+    ![Create Private Event Form](/modules/events-calendar/create-private-event.png)
   </StepItem>
-  <StepItem title="Submit the form">
-    Click **Submit**.
+  <StepItem title="Click Submit">
+    Click **Submit** to save and create the private event.
   </StepItem>
 </Step>
 
 ## Outcome
 
 - The private event will be created successfully.
-- It will be displayed in the calendar but limited to internal visibility.
+- It will appear in the event list and on the calendar, visible only to administrators and internal members.
 
-![Creating a Private Event1](/modules/events-calendar/create-private-event1.png)
+![Private Event List](/modules/events-calendar/private-event-list.png)
 
-![Creating a Private Event2](/modules/events-calendar/create-private-event2.png)
+![Private Event List](/modules/events-calendar/event-private-success.png)
 
-![Creating a Private Event3](/modules/events-calendar/create-private-event3.png)
-
-A new event will be created in the calendar and will be listed. 
-
-![Creating a Private Event4](/modules/events-calendar/create-private-event4.png)
+<Note type="info">
+  Private events are not visible to the public. Only logged-in members with appropriate access can view them.
+</Note>
