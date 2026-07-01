@@ -263,6 +263,194 @@ export const Documents: Paths[] = [
   ],
 },
 {
+  title: 'Quotes / Bible Verse',
+  href: '/modules/quotes-bibleverse',
+  items: [
+    {
+      title: 'Quotes & Bible Verse List',
+      href: '/list',
+    },
+    {
+      title: 'How to Add a Quote / Bible Verse',
+      href: '/add',
+    },
+    {
+      title: 'How to Edit a Quote / Bible Verse',
+      href: '/edit',
+    },
+    {
+      title: 'How to View a Quote / Bible Verse',
+      href: '/view',
+    },
+    {
+      title: 'How to Delete a Quote / Bible Verse',
+      href: '/delete',
+    },
+  ],
+},
+{
+  title: 'Prayer Board',
+  href: '/modules/prayerboard-management',
+  items: [
+    {
+      title: 'Prayer Board List',
+      href: '/list',
+    },
+    {
+      title: 'Pending Requests',
+      href: '/pending',
+    },
+    {
+      title: 'Active Requests',
+      href: '/active',
+    },
+    {
+      title: 'Answered Requests',
+      href: '/answered',
+    },
+    {
+      title: 'Ended Requests',
+      href: '/ended',
+    },
+    {
+      title: 'Rejected Requests',
+      href: '/rejected',
+    },
+    {
+      title: 'Prayer Category List',
+      href: '/category',
+    },
+  ],
+},
+{
+  title: 'Help Requests',
+  href: '/modules/help-requests',
+  items: [
+    {
+      title: 'How to Add a Help Request',
+      href: '/add',
+    },
+    {
+      title: 'Pending Requests',
+      href: '/pending',
+    },
+    {
+      title: 'How to Approve or Reject a Help Request',
+      href: '/review',
+    },
+    {
+      title: 'Approved Requests',
+      href: '/approve',
+    },
+    {
+      title: 'Rejected Requests',
+      href: '/reject',
+    },
+    {
+      title: 'Closed Requests',
+      href: '/close',
+    },
+    {
+      title: 'Help Request Details',
+      href: '/details',
+    },
+  ],
+},
+{
+  title: 'Messages',
+  href: '/modules/messages',
+  items: [
+    {
+      title: 'Sent Messages List',
+      href: '/list',
+    },
+    {
+      title: 'Batch Message List',
+      href: '/batch-details',
+    },
+    {
+      title: 'Search Messages by Mode',
+      href: '/search',
+    },
+  ],
+},
+{
+  title: 'Contact Requests',
+  href: '/modules/contact-requests',
+  items: [
+    {
+      title: 'Contact Requests List',
+      href: '/list',
+    },
+    {
+      title: 'Contact Request Details',
+      href: '/details',
+    },
+    {
+      title: 'Search Contact Requests',
+      href: '/search',
+    },
+  ],
+},
+{
+  title: 'Feedbacks',
+  href: '/modules/feedbacks',
+  items: [
+    {
+      title: 'Feedbacks List',
+      href: '/list',
+    },
+  ],
+},
+{
+  title: 'Activity Logs',
+  href: '/modules/activity-logs',
+  items: [
+    {
+      title: 'Activity Log List',
+      href: '/list',
+    },
+  ],
+},
+{
+  title: 'Settings',
+  href: '/modules/settings',
+  items: [
+    {
+      title: 'General Settings',
+      href: '/general',
+    },
+    {
+      title: 'Maintenance Settings',
+      href: '/maintenance',
+    },
+    {
+      title: 'Contact Settings',
+      href: '/contact',
+    },
+    {
+      title: 'HTML / JS Code Settings',
+      href: '/html-js',
+    },
+    {
+      title: 'Location Settings',
+      href: '/location',
+    },
+    {
+      title: 'Open Graph Settings',
+      href: '/open-graph',
+    },
+    {
+      title: 'SEO Settings',
+      href: '/seo',
+    },
+    {
+      title: 'Social Media Settings',
+      href: '/social-media',
+    },
+  ],
+},
+{
   title: 'Sermon Management',
   href: '/modules/sermon-management',
   items: [
