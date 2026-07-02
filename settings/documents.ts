@@ -357,6 +357,166 @@ export const Documents: Paths[] = [
   ],
 },
 {
+  title: 'Email Blaster',
+  href: '/modules/email-blaster',
+  items: [
+    {
+      title: 'Campaign List',
+      href: '/campaign',
+      items: [
+        {
+          title: 'How to Add a Campaign',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a Campaign',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'Subscriber List',
+      href: '/subscriber',
+      items: [
+        {
+          title: 'How to Add a Subscriber',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a Subscriber',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'Mailing List',
+      href: '/mailing-list',
+      items: [
+        {
+          title: 'How to Add a Mailing List',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a Mailing List',
+          href: '/edit',
+        },
+        {
+          title: 'Mailing List Details',
+          href: '/details',
+        },
+      ],
+    },
+    {
+      title: 'How to Send a Newsletter',
+      href: '/newsletter',
+    },
+    {
+      title: 'Settings',
+      href: '/settings',
+      items: [
+        {
+          title: 'Mails Delivered',
+          href: '/mail-delivered-list',
+        },
+        {
+          title: 'Mail Queue',
+          href: '/mail-queue-list',
+        },
+        {
+          title: 'SMTP List',
+          href: '/smtp-list',
+          items: [
+            {
+              title: 'How to Add an SMTP',
+              href: '/add',
+            },
+            {
+              title: 'How to Edit an SMTP',
+              href: '/edit',
+            },
+          ],
+        },
+        {
+          title: 'Webhook List',
+          href: '/webhook-list',
+          items: [
+            {
+              title: 'How to Add a Webhook',
+              href: '/add',
+            },
+            {
+              title: 'Webhook Details',
+              href: '/details',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+},
+{
+  title: 'Offerings',
+  href: '/modules/offerings',
+  items: [
+    {
+      title: 'Donation List',
+      href: '/donation',
+      items: [
+        {
+          title: 'Donation Details',
+          href: '/details',
+        },
+        {
+          title: 'Donation Search',
+          href: '/search',
+        },
+      ],
+    },
+    {
+      title: 'Payment Gateway List',
+      href: '/paymentgateway',
+      items: [
+        {
+          title: 'How to Edit a Payment Gateway',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'Fund List',
+      href: '/fund',
+      items: [
+        {
+          title: 'Fund Details',
+          href: '/details',
+        },
+        {
+          title: 'How to Edit a Fund',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'Pay Account List',
+      href: '/payaccount',
+      items: [
+        {
+          title: 'How to Add a Pay Account',
+          href: '/add',
+        },
+        {
+          title: 'Pay Account Status',
+          href: '/status',
+        },
+        {
+          title: 'How to Delete a Pay Account',
+          href: '/delete',
+        },
+      ],
+    },
+  ],
+},
+{
   title: 'Messages',
   href: '/modules/messages',
   items: [
@@ -447,6 +607,24 @@ export const Documents: Paths[] = [
     {
       title: 'Social Media Settings',
       href: '/social-media',
+    },
+  ],
+},
+{
+  title: 'Master Data',
+  href: '/modules/master-data',
+  items: [
+    {
+      title: 'Countries',
+      href: '/country',
+    },
+    {
+      title: 'States',
+      href: '/state',
+    },
+    {
+      title: 'Cities',
+      href: '/city',
     },
   ],
 },
