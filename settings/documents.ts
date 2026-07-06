@@ -222,28 +222,6 @@ export const Documents: Paths[] = [
   ],
 },
 {
-  title: 'Media Files',
-  href: '/modules/media-files-management',
-  items: [
-    {
-      title: 'Media Library',
-      href: '/media-library',
-    },
-    {
-      title: 'How to Add an Image',
-      href: '/add-image',
-    },
-    {
-      title: 'How to Add an Audio File',
-      href: '/add-audio',
-    },
-    {
-      title: 'How to Add a Video File',
-      href: '/add-video',
-    },
-  ],
-},
-{
   title: 'Bulletin Management',
   href: '/modules/bulletin-management',
   items: [
@@ -569,6 +547,112 @@ export const Documents: Paths[] = [
     {
       title: 'Activity Log List',
       href: '/list',
+    },
+  ],
+},
+{
+  title: 'WebCMS',
+  href: '/modules/webcms',
+  items: [
+    {
+      title: 'Pages',
+      href: '/page',
+      items: [
+        {
+          title: 'How to Add a Page',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a Page',
+          href: '/edit',
+        },
+        {
+          title: 'How to View a Page',
+          href: '/view',
+        },
+        {
+          title: 'How to Delete a Page',
+          href: '/delete',
+        },
+      ],
+    },
+    {
+      title: 'Page Categories',
+      href: '/page-category',
+      items: [
+        {
+          title: 'How to Add a Page Category',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a Page Category',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'Posts',
+      href: '/post',
+      items: [
+        {
+          title: 'How to Add a Post',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a Post',
+          href: '/edit',
+        },
+        {
+          title: 'How to Delete a Post',
+          href: '/delete',
+        },
+      ],
+    },
+    {
+      title: 'FAQ',
+      href: '/faq',
+      items: [
+        {
+          title: 'How to Add a FAQ',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a FAQ',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'FAQ Categories',
+      href: '/faq-category',
+      items: [
+        {
+          title: 'How to Add a FAQ Category',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a FAQ Category',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'Code Snippets',
+      href: '/code-snippets',
+      items: [
+        {
+          title: 'How to Add a Widget',
+          href: '/add',
+        },
+        {
+          title: 'How to Edit a Widget',
+          href: '/edit',
+        },
+      ],
+    },
+    {
+      title: 'Google Analytics',
+      href: '/google-analytics',
     },
   ],
 },
