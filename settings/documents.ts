@@ -511,6 +511,28 @@ export const Documents: Paths[] = [
   ],
 },
 {
+  title: 'Reports',
+  href: '/modules/reports',
+  items: [
+    {
+      title: 'Report List',
+      href: '/report-list',
+    },
+    {
+      title: 'How to Download a Membership Report',
+      href: '/download-membership-report',
+    },
+    {
+      title: 'How to Download an Important Dates Report',
+      href: '/download-important-dates-report',
+    },
+    {
+      title: 'How to View an Event Message History Report',
+      href: '/message-history-events',
+    },
+  ],
+},
+{
   title: 'Activity Logs',
   href: '/modules/activity-logs',
   items: [
@@ -715,6 +737,28 @@ export const Documents: Paths[] = [
           href: '/edit-chapter',
         },
       ],
+    },
+  ],
+},
+{
+  title: 'Media Files Management',
+  href: '/modules/media-files-management',
+  items: [
+    {
+      title: 'Media Library',
+      href: '/media-library',
+    },
+    {
+      title: 'How to Add an Image',
+      href: '/add-image',
+    },
+    {
+      title: 'How to Add an Audio File',
+      href: '/add-audio',
+    },
+    {
+      title: 'How to Add a Video File',
+      href: '/add-video',
     },
   ],
 },
