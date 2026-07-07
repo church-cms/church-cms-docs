@@ -64,6 +64,14 @@ nano .env  # Update database credentials
 # 3. Run framework setup
 bash install.sh
 
+```
+![Church Install Setup Action](/modules/church-install1.png)
+![Church Install Setup Action](/modules/church-install2.png)
+![Church Install Setup Action](/modules/church-install3.png)
+![Church Install Setup Action](/modules/church-install4.png)
+
+```
+
 # 4. Create church and admin
 php artisan church:setup
 ```
@@ -80,8 +88,13 @@ php artisan serve
 ```
 # 6. Access at http://localhost:8000/admin
 
-# 7.Run Demo test data
+# 7.Run Demo Test Data
+To populate the application with sample demo data (such as users, members, events, and other test records), 
+run the following Artisan command:
+
 php artisan db:seed --class=DemoDataSeeder
+
+Note: This command is intended for testing and demonstration purposes only. Do not run it on a production site, as it will insert sample data into the database
 ```
 ![Church Setup Action](/modules/church-test-data.png)
 ![Church Setup Action](/modules/church-test-data1.png)
