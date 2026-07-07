@@ -66,13 +66,26 @@ bash install.sh
 
 # 4. Create church and admin
 php artisan church:setup
+```
 
+![Church Setup Action](/modules/church-setup1.png)
+![Church Setup Action](/modules/church-setup2.png)
+![Church Setup Action](/modules/church-setup3.png)
+
+```bash
 # 5. Start development server
 php artisan serve
 
-# 6. Access at http://localhost:8000/admin
-```
+![Church Setup Action](/modules/church-home.png)
 
+# 6. Access at http://localhost:8000/admin
+
+# 7.Run Demo test data
+php artisan db:seed --class=DemoDataSeeder
+```
+![Church Setup Action](/modules/church-test-data.png)
+![Church Setup Action](/modules/church-test-data1.png)
+```
 **Installation time:** ~2-3 minutes
 
 ---
@@ -84,7 +97,7 @@ Both installation methods require:
 **Server:**
 - PHP 8.2 or higher
 - MySQL 5.7 or higher
-- 256MB minimum RAM (512MB recommended)
+- 4 GB minimum RAM (8 GB recommended)
 - Composer (auto-installed during setup if available)
 - npm/Node.js (auto-installed during setup if available)
 
@@ -109,7 +122,7 @@ Once installed, you get:
 ### Member Management
 - Member profiles and directories
 - Guest tracking
-- Preacher and sub-admin roles
+- Sub-admin roles
 
 ### Content & Media
 - Sermon management with audio/video uploads
@@ -164,7 +177,7 @@ Once installed, you get:
 
 1. **Log in** with the admin credentials you created
 2. **Configure church info** - Add logo, contact details, timezone
-3. **Add staff members** - Create accounts for team members
+3. **Add Subadmin members** - Create and manage sub-admin accounts.
 4. **Set up events** - Create your first event or service
 5. **Invite members** - Start building your member directory
 

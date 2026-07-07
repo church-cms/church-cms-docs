@@ -17,7 +17,46 @@ export const Documents: Paths[] = [
     ],
   },
   {
-    heading: 'Modules',
+  heading: 'Modules',
+  title: 'Settings',
+  href: '/modules/settings',
+  items: [
+    {
+      title: 'General Settings',
+      href: '/general',
+    },
+    {
+      title: 'Maintenance Settings',
+      href: '/maintenance',
+    },
+    {
+      title: 'Contact Settings',
+      href: '/contact',
+    },
+    {
+      title: 'HTML / JS Code Settings',
+      href: '/html-js',
+    },
+    {
+      title: 'Location Settings',
+      href: '/location',
+    },
+    {
+      title: 'Open Graph Settings',
+      href: '/open-graph',
+    },
+    {
+      title: 'SEO Settings',
+      href: '/seo',
+    },
+    {
+      title: 'Social Media Settings',
+      href: '/social-media',
+    },
+  ],
+},
+  {
+    
     title: 'User Management',
     href: '/modules/user-management',
     items: [
@@ -527,8 +566,8 @@ export const Documents: Paths[] = [
       href: '/download-important-dates-report',
     },
     {
-      title: 'How to View an Event Message History Report',
-      href: '/message-history-events',
+      title: 'How to View a Message History Report',
+      href: '/message-history-list',
     },
   ],
 },
@@ -642,50 +681,10 @@ export const Documents: Paths[] = [
         },
       ],
     },
-    {
-      title: 'Google Analytics',
-      href: '/google-analytics',
-    },
+  
   ],
 },
-{
-  title: 'Settings',
-  href: '/modules/settings',
-  items: [
-    {
-      title: 'General Settings',
-      href: '/general',
-    },
-    {
-      title: 'Maintenance Settings',
-      href: '/maintenance',
-    },
-    {
-      title: 'Contact Settings',
-      href: '/contact',
-    },
-    {
-      title: 'HTML / JS Code Settings',
-      href: '/html-js',
-    },
-    {
-      title: 'Location Settings',
-      href: '/location',
-    },
-    {
-      title: 'Open Graph Settings',
-      href: '/open-graph',
-    },
-    {
-      title: 'SEO Settings',
-      href: '/seo',
-    },
-    {
-      title: 'Social Media Settings',
-      href: '/social-media',
-    },
-  ],
-},
+
 {
   title: 'Master Data',
   href: '/modules/master-data',

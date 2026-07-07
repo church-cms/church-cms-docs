@@ -15,24 +15,18 @@ ChurchCMS organizes users into four distinct types. Each type carries a specific
     icon="users"
     variant="small"
   />
+  
   <Card
-    title="Preachers"
-    description="Ministers and preachers associated with the church. Managed separately with preacher-specific profile details."
-    href="/docs/modules/user-management/members"
-    icon="user"
-    variant="small"
-  />
-  <Card
-    title="Sub-Admins"
+    title="Sub Admins"
     description="Trusted users with elevated access to manage members, content, and reports. Access is scoped by the primary Admin."
-    href="/docs/modules/user-management/members"
+    href="/docs/modules/user-management/sub-admin"
     icon="userCheck"
     variant="small"
   />
   <Card
-    title="Staff"
+    title="Guest"
     description="Church employees and volunteers with staff-level access to day-to-day operations such as attendance and scheduling."
-    href="/docs/modules/user-management/members"
+    href="/docs/modules/user-management/guest"
     icon="userCog"
     variant="small"
   />
@@ -42,11 +36,11 @@ ChurchCMS organizes users into four distinct types. Each type carries a specific
 
 ## Role Comparison
 
-| Capability | Member | Preacher | Sub-Admin | Staff |
+| Capability | Member |  Sub-Admin | Guest |
 |---|:---:|:---:|:---:|:---:|
 | View own profile | ✓ | ✓ | ✓ | ✓ |
 | Manage members | | | ✓ | ✓ |
-| Manage preachers | | | ✓ | |
+| Manage subadmin  | | | ✓ | |
 | Manage groups | | | ✓ | ✓ |
 | Send messages | | | ✓ | ✓ |
 | Access reports | | | ✓ | |
@@ -63,6 +57,5 @@ ChurchCMS organizes users into four distinct types. Each type carries a specific
 All user type lists are accessible from the main sidebar under **Users**:
 
 - **Users → Members**
-- **Users → Preachers**
 - **Users → Sub Admins**
-- **Users → Staff**
+- **Users → Guest**
