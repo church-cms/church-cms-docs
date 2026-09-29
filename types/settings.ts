@@ -11,6 +11,7 @@ import {
   loadfromgithub,
   rightsidebar,
   siteicon,
+  siteiconDark,
   sitename,
   tableofcontent,
   totopscroll,
@@ -36,6 +37,7 @@ interface AppSettings {
   metadataBase: string
   description: string
   siteicon: string
+  siteiconDark: string
   keywords: string[]
   openGraph: OpenGraph
   twitter: TwitterCard
@@ -58,6 +60,7 @@ export const Settings: AppSettings = {
   metadataBase: url,
   description,
   siteicon,
+  siteiconDark,
   keywords,
   openGraph: {
     type: 'website',
