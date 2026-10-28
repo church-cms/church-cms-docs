@@ -1,4 +1,4 @@
-export const url = 'https://churchcms.app/'
+export const url = 'https://docs.churchcms.app'
 export const siteicon = '/churchcmslogo.png'
 export const siteiconDark = '/churchcmslogodark.png'
 
